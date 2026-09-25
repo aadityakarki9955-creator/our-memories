@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Memories ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating hearts -->
+    <div class="hearts" id="hearts"></div>
+
+    <!-- Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button
+        class="music-button"
+        id="musicButton"
+        onclick="toggleMusic()"
+        aria-label="Play music">
+        🎵
+    </button>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Us ❤️</h1>
+
+            <p>
+                Every picture has a story.<br>
+                Every story has a memory.
+            </p>
+
+            <button onclick="startJourney()">
+                Begin Our Story ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= INTRO ================= -->
+
+    <section class="intro">
+
+        <div class="container">
+
+            <h2>Our Little Story</h2>
+
+            <p>
+                Some memories become special simply because
+                of the person we shared them with.
+                These are some of the moments I will always remember.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MEMORIES ================= -->
+
+    <section class="memories" id="memories">
+
+        <!-- MEMORY 1 - VIDEO -->
+
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <div class="memory-number">01</div>
+
+                <video controls muted loop playsinline>
+                    <source src="images/memory1.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>THE BEGINNING</h3>
+
+                <p>
+                    Where everything started ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 2 -->
+
+        <div class="memory-card reverse">
+
+            <div class="memory-image">
+
+                <div class="memory-number">02</div>
+
+                <img
+                    src="images/memory2.jpg"
+                    alt="Memory 2">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>A BEAUTIFUL MOMENT</h3>
+
+                <p>
+                    A smile I'll never forget ✨
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 3 -->
+
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <div class="memory-number">03</div>
+
+                <img
+                    src="images/memory3.jpg"
+                    alt="Memory 3">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>TOGETHER</h3>
+
+                <p>
+                    Just being together 💕
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 4 -->
+
+        <div class="memory-card reverse">
+
+            <div class="memory-image">
+
+                <div class="memory-number">04</div>
+
+                <img
+                    src="images/memory4.jpg"
+                    alt="Memory 4">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>LAUGHTER</h3>
+
+                <p>
+                    The laughs we shared 😂
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 5 -->
+
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <div class="memory-number">05</div>
+
+                <img
+                    src="images/memory5.jpg"
+                    alt="Memory 5">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>A SPECIAL DAY</h3>
+
+                <p>
+                    A day worth remembering 🌸
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 6 -->
+
+        <div class="memory-card reverse">
+
+            <div class="memory-image">
+
+                <div class="memory-number">06</div>
+
+                <img
+                    src="images/memory6.jpg"
+                    alt="Memory 6">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>LITTLE THINGS</h3>
+
+                <p>
+                    The little things mattered 🤍
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 7 -->
+
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <div class="memory-number">07</div>
+
+                <img
+                    src="images/memory7.jpg"
+                    alt="Memory 7">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>A MEMORY</h3>
+
+                <p>
+                    One more beautiful moment ✨
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 8 -->
+
+        <div class="memory-card reverse">
+
+            <div class="memory-image">
+
+                <div class="memory-number">08</div>
+
+                <img
+                    src="images/memory8.jpg"
+                    alt="Memory 8">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>HAPPINESS</h3>
+
+                <p>
+                    A moment full of happiness ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 9 -->
+
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <div class="memory-number">09</div>
+
+                <img
+                    src="images/memory9.jpg"
+                    alt="Memory 9">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>US</h3>
+
+                <p>
+                    Just us 💕
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 10 -->
+
+        <div class="memory-card reverse">
+
+            <div class="memory-image">
+
+                <div class="memory-number">10</div>
+
+                <img
+                    src="images/memory10.jpg"
+                    alt="Memory 10">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>HALF WAY</h3>
+
+                <p>
+                    Halfway through our memories 🌙
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 11 -->
+
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <div class="memory-number">11</div>
+
+                <img
+                    src="images/memory11.jpg"
+                    alt="Memory 11">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>FOREVER MOMENTS</h3>
+
+                <p>
+                    A memory worth keeping 💖
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 12 -->
+
+        <div class="memory-card reverse">
+
+            <div class="memory-image">
+
+                <div class="memory-number">12</div>
+
+                <img
+                    src="images/memory12.jpg"
+                    alt="Memory 12">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>SMILES</h3>
+
+                <p>
+                    That beautiful smile 😊
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 13 -->
+
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <div class="memory-number">13</div>
+
+                <img
+                    src="images/memory13.jpg"
+                    alt="Memory 13">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>ANOTHER CHAPTER</h3>
+
+                <p>
+                    Another moment together 🌷
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 14 -->
+
+        <div class="memory-card reverse">
+
+            <div class="memory-image">
+
+                <div class="memory-number">14</div>
+
+                <img
+                    src="images/memory14.jpg"
+                    alt="Memory 14">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>SPECIAL</h3>
+
+                <p>
+                    A moment close to my heart ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 15 -->
+
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <div class="memory-number">15</div>
+
+                <img
+                    src="images/memory15.jpg"
+                    alt="Memory 15">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>THROUGH EVERYTHING</h3>
+
+                <p>
+                    We shared good days and hard days 🤍
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 16 -->
+
+        <div class="memory-card reverse">
+
+            <div class="memory-image">
+
+                <div class="memory-number">16</div>
+
+                <img
+                    src="images/memory16.jpg"
+                    alt="Memory 16">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>GRATITUDE</h3>
+
+                <p>
+                    Thank you for these memories 🌹
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 17 -->
+
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <div class="memory-number">17</div>
+
+                <img
+                    src="images/memory17.jpg"
+                    alt="Memory 17">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>ONE MORE</h3>
+
+                <p>
+                    Another memory to keep 💗
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 18 -->
+
+        <div class="memory-card reverse">
+
+            <div class="memory-image">
+
+                <div class="memory-number">18</div>
+
+                <img
+                    src="images/memory18.jpg"
+                    alt="Memory 18">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>ALMOST THE END</h3>
+
+                <p>
+                    One of my favourite memories ✨
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 19 -->
+
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <div class="memory-number">19</div>
+
+                <img
+                    src="images/memory19.jpg"
+                    alt="Memory 19">
+
+            </div>
+
+            <div class="memory-text">
+
+                <h3>THE FINAL MEMORY</h3>
+
+                <p>
+                    And this one... ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= APOLOGY ================= -->
+
+    <section class="apology">
+
+        <div class="apology-content">
+
+            <h2>I'm Sorry.</h2>
+
+            <p>
+                I’m sorry for the times I disappointed you.
+            </p>
+
+            <p>
+                I’m sorry for the moments when my words
+                or actions hurt you.
+            </p>
+
+            <p>
+                I’m sorry for the times I could have listened better,
+                understood better, or treated the situation differently.
+            </p>
+
+            <p>
+                I know that saying sorry cannot change the past.
+            </p>
+
+            <p>
+                But I want you to know that I genuinely regret
+                the moments when I caused you pain.
+            </p>
+
+            <p>
+                The memories on this page remind me that there was also
+                so much happiness, laughter and love between us.
+            </p>
+
+            <p>
+                I’m truly sorry. 🤍
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= LOVE LETTER ================= -->
+
+    <section class="letter">
+
+        <div class="letter-card">
+
+            <h2>A Little Letter ❤️</h2>
+
+            <p>
+                If I could go back and change some moments, I would.
+            </p>
+
+            <p>
+                I would listen more carefully.
+                I would be more patient.
+                I would think before speaking.
+            </p>
+
+            <p>
+                I would never want the person I care about
+                to feel hurt because of me.
+            </p>
+
+            <p>
+                I’m sorry for every disappointment,
+                every misunderstanding and every moment
+                that caused you pain.
+            </p>
+
+            <p>
+                But more than anything, I want to say thank you.
+            </p>
+
+            <p>
+                Thank you for the smiles.
+            </p>
+
+            <p>
+                Thank you for the laughter.
+            </p>
+
+            <p>
+                Thank you for every memory.
+            </p>
+
+            <p>
+                And thank you for being a part of my story. ❤️
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FINAL SURPRISE ================= -->
+
+    <section class="final">
+
+        <div class="final-content">
+
+            <h2>One Last Thing ❤️</h2>
+
+            <p>
+                Before you leave...
+            </p>
+
+            <button
+                class="surprise-button"
+                onclick="openSurprise()">
+                Open My Heart ❤️
+            </button>
+
+            <div
+                class="surprise"
+                id="surprise">
+
+                <p>
+                    Thank you for every memory.
+                </p>
+
+                <p>
+                    I’m sorry for hurting you.
+                </p>
+
+                <p>
+                    I’m sorry for disappointing you.
+                </p>
+
+                <p>
+                    And I hope you always remember
+                    the beautiful moments too.
+                </p>
+
+                <div class="infinity">
+                    ∞
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        Made with memories, love and a little bit of regret. ❤️
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
